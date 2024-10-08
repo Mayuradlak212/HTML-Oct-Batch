@@ -1,0 +1,183 @@
+
+ Structure Tags:
+1. <html> – This tag is the outermost element of an HTML document. It tells the browser that everything inside it is an HTML document.
+   
+2. <head> – Contains information about the document that is not visible on the webpage, such as the title, linked CSS files, or metadata like page description and keywords.
+
+3. <body> – This tag holds all the content that is visible in the browser, like text, images, videos, and links. It's the main part of your webpage.
+
+4. <title> – Displays the title of the webpage in the browser tab. It helps users and search engines identify what the page is about.
+
+5. <meta> – Used to provide information (metadata) about the webpage, such as its description, author, and keywords for search engines.
+
+---
+
+ Text Formatting and Layout:
+1. <h1> to <h6> – These tags define headings. <h1> is the largest, usually used for the main title, while <h6> is the smallest, used for sub-headings.
+
+2. <p> – This tag defines a paragraph of text. It separates blocks of content to make it easier to read.
+
+3. <br> – Inserts a line break in the text. It forces the text to continue on the next line. It will not contain closing tag
+
+4. <hr> – This tag creates a horizontal line or divider, often used to separate sections of content visually.  It will not contain closing tag
+
+5. <b> / <strong> – Both tags make text bold. <strong> also indicates that the text is important.
+
+6. <i> / <em> – These tags italicize text. <em> also suggests that the text should be emphasized or highlighted.
+
+7. <span> – This is an inline container that allows you to style small portions of text without affecting the layout.
+
+8. <div> – A block-level container used to group elements and apply styles or layouts. It's very useful for structuring a webpage.
+
+---
+
+ List Tags:
+1. <ul> – Defines an unordered list where the items are marked with bullet points.
+
+2. <ol> – Defines an ordered list where the items are numbered.
+
+3. <li> – Represents an item in a list. It can be used inside <ul> or <ol> to define each list item.
+
+---
+
+ Link and Media:
+1. <a> – The anchor tag is used to create hyperlinks. It allows users to click and go to another webpage or a specific section within the same page.
+
+2. <img> – Displays an image on the webpage. You need to provide the image source (URL) for it to be displayed. It will not contain closing tag
+
+3. <video> – This tag is used to embed a video player in your webpage. You can control playback and other video options.
+
+4. <audio> – Embeds audio content like music or sound effects. It comes with controls for play, pause, and volume.
+
+---
+
+ Forms and Input:
+1. <form> – Creates a form to collect user input, like text, passwords, or selections. Forms are essential for collecting data from users.
+
+2. <input> – Represents a form input field, such as text, password, checkboxes, or radio buttons. The type attribute specifies what kind of input it accepts.
+
+3. <button> – A clickable button. It can be used to submit a form or trigger an action with JavaScript.
+
+4. <textarea> – A multi-line text input field. It's used for entering larger amounts of text, like comments or messages.
+
+5. <select> – Creates a dropdown list from which the user can select an option.
+
+6. <option> – Defines an option within a <select> dropdown list. Each option represents a choice for the user.
+
+7. <label> – Links a label to a form element. This makes forms more user-friendly by allowing users to click on the label to focus the input.
+
+---
+
+ Tables:
+1. <table> – This tag creates a table structure for displaying data in rows and columns.
+
+2. <tr> – Defines a row in the table. Each row can contain table data or header cells.
+
+3. <td> – This tag defines a cell in a table row, where you can insert text, images, or other content.
+
+4. <th> – Creates a header cell in a table, typically displayed in bold and centered.
+
+5. <thead> – Groups the header rows in a table, making the structure clearer and easier to style.
+
+6. <tbody> – Groups the main content rows in a table, keeping them separate from the header and footer.
+
+7. <tfoot> – Groups the footer rows of a table, usually containing summary information or totals.
+
+---
+
+ Semantic Elements:
+1. <header> – Defines the header of a document or section. It often contains the title, logo, or navigation links.
+
+2. <nav> – Used for navigation links, like a menu or a list of links for navigating the website.
+
+3. <section> – Represents a distinct section of the webpage, such as a chapter, header, or footer. It helps organize content.
+
+4. <article> – Represents independent content, like a blog post or news article. It can be shared and reused.
+
+5. <footer> – Defines the footer for a document or section. Typically contains contact info, copyright details, or navigation links.
+
+6. <aside> – Used for content that's related but not essential to the main content, like a sidebar or ad.
+
+7. <main> – Represents the main content of the webpage. Only one <main> element should be used per page.
+
+---
+
+ Scripting and Styles:
+1. <script> – Used to embed or reference JavaScript code. It allows dynamic behavior, like interactivity, on webpages.
+
+2. <link> – Links external resources like CSS stylesheets. It's used in the <head> to apply styling to your HTML.
+
+3. <style> – Embeds CSS styles directly in the HTML document. It's typically used for small, specific styles.
+
+---
+
+ Other Essential Tags:
+1. <iframe> – Embeds another webpage or HTML document inside the current one. It's often used for embedding videos or maps.
+
+2. <canvas> – Provides a space where you can draw graphics using JavaScript, such as charts or animations.
+
+3. <noscript> – Displays fallback content if the user's browser doesn't support JavaScript or has it disabled.
+
+
+Here is a concise 2-line description for each HTML tag:
+
+ 1. <figure> and <figcaption>
+   - <figure>: Groups media content (images, videos) along with a caption.
+   - <figcaption>: Adds a caption to describe the content within a `<figure>` element.
+
+ 2. <mark>
+   - Highlights specific text to emphasize important or relevant content.
+   - Used to draw attention to search results or key information.
+
+ 3. <time>
+   - Represents dates or times in a machine-readable format, improving SEO and accessibility.
+   - Used for events, schedules, or timestamps in a document.
+
+ 4. <details> and <summary>
+   - <details>: Creates a collapsible section for hiding and showing content.
+   - <summary>: Acts as the clickable header for the collapsible `<details>` section.
+
+ 5. <progress>
+   - Displays the completion percentage of a task, such as file uploads or progress tracking.
+   - Used for task indicators to enhance user experience and interaction.
+
+ 6. <meter>
+   - Represents a measurable value within a known range, like ratings or performance scores.
+   - Used to visually represent ratings, levels, or percentages on a scale.
+
+ 7. <abbr>
+   - Marks abbreviations or acronyms, with an expanded version available on hover.
+   - Used to provide full meanings of short forms for better clarity and accessibility.
+
+ 8. <code>, <pre>, and <kbd>
+   - <code>: Displays short snippets of inline code.
+   - <pre>: Preserves text formatting and spaces for code blocks or structured text.
+   - <kbd>: Represents user input via keyboard or other input devices.
+
+ 9. <blockquote> and <q>
+   - <blockquote>: Used for long, block-level quotations from external sources.
+   - <q>: Used for short, inline quotes within paragraphs.
+
+ 10. <data>
+   - Binds content with machine-readable data, like IDs or dates, for backend processing.
+   - Used in conjunction with scripts or databases for storing structured data.
+
+ 11. <datalist>
+   - Provides a list of predefined options for input fields, offering autocomplete functionality.
+   - Used to enhance forms by allowing users to either select or input custom data.
+
+ 12. <output>
+   - Displays the result of user actions or calculations, typically within forms.
+   - Used to show dynamically generated content based on user input.
+
+ 13. <template>
+   - Holds reusable HTML content that is not displayed when the page loads.
+   - Used in dynamic content generation with JavaScript for cloning content.
+
+ 14. <picture>
+   - Defines multiple image sources for responsive web design, adjusting based on screen size.
+   - Used to optimize images for various devices, improving load time and resolution.
+
+ 15. <source>
+   - Specifies different media files (like images, videos, or audio) for varying conditions.
+   - Used in media elements to provide format options for better compatibility across devices.
