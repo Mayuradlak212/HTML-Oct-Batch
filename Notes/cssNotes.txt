@@ -1,0 +1,18 @@
+CSS : Cascading Style Sheets (CSS) is a simple mechanism for adding style (e.g., fonts, colors, spacing) to Web documents.
+
+ Type or Way to write CSS
+ 1. Inline CSS 
+ 2. Internal CSS 
+ 3. External CSS
+
+ color: It is Used to Change text Color
+ background-color:red;  __. used for change background color
+
+
+ width: 500px;
+ 
+  background-color:chartreuse;
+   margin:50px;    Outer Spacing out of this box
+   padding:50px;  Inner Spaacing inside of Box 
+
+text-align:justify;  --> To justify Text
