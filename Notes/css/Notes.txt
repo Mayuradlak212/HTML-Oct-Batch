@@ -1,0 +1,176 @@
+Great! Let’s continue with the remaining sections.
+
+---
+
+
+1. Introduction to CSS
+CSS (Cascading Style Sheets): A stylesheet language used to control the presentation of HTML elements.
+Selectors: Specify which HTML elements are affected by styles (e.g., p, .class, #id).
+Declaration Block: Contains one or more declarations inside curly braces (e.g., { color: red; }).
+Property: Specifies the aspect of styling (e.g., color, font-size).
+Value: The specific style assigned to a property (e.g., red, 16px).
+
+
+2. CSS Selectors
+Type Selector: Selects all elements of a given type (e.g., p { }).
+Class Selector: Selects elements with a specific class (e.g., .classname { }).
+ID Selector: Selects elements with a specific ID (e.g., #idname { }).
+Universal Selector: Selects all elements (* { }).
+Descendant Selector: Selects elements that are descendants of another (e.g., div p { }).
+Child Selector: Selects immediate children of an element (div > p { }).
+Attribute Selector: Selects elements based on attributes (e.g., [type="text"] { }).
+Pseudo-class Selector: Selects elements in a specific state (e.g., a:hover { }).
+Pseudo-element Selector: Selects and styles parts of elements (e.g., p::first-line { }).
+
+
+ 3. CSS Box Model
+- Content: The area where text or images appear.
+- Padding: Space between the content and the border.
+- Border: A line surrounding the padding and content.
+- Margin: Space outside the border, creating space between elements.
+
+---
+
+ 4. CSS Colors and Backgrounds
+- color: Sets the color of the text (`color: red;`).
+- background-color: Sets the background color of an element (`background-color: blue;`).
+- background-image: Sets an image as the background (`background-image: url('image.jpg');`).
+- background-repeat
+
+
+
+: Specifies if/how the background image is repeated (`background-repeat: no-repeat;`).
+- background-position: Sets the initial position of the background image (`background-position: center;`).
+- background-size: Specifies the size of the background image (`background-size: cover;`).
+
+---
+
+ 5. CSS Typography
+- font-family: Specifies the font of text (`font-family: Arial, sans-serif;`).
+- font-size: Specifies the size of the text (`font-size: 16px;`).
+- font-weight: Sets the weight (boldness) of the font (`font-weight: bold;`).
+- font-style: Specifies the style of the font (normal, italic, oblique) (`font-style: italic;`).
+- text-align: Aligns text horizontally (`text-align: center;`).
+- line-height: Sets the space between lines of text (`line-height: 1.5;`).
+- letter-spacing: Adjusts space between characters (`letter-spacing: 2px;`).
+- text-decoration: Adds decoration to text (underline, overline, etc.) (`text-decoration: underline;`).
+
+---
+
+ 6. CSS Layout
+- width: Sets the width of an element (`width: 100px;`).
+- height: Sets the height of an element (`height: 50px;`).
+- max-width: Sets the maximum width of an element (`max-width: 100%;`).
+- min-width: Sets the minimum width of an element (`min-width: 200px;`).
+- display: Defines how an element is displayed (`display: block;`).
+- position: Specifies the positioning method of an element (`position: relative;`).
+- top, right, bottom, left: Positions an element in relation to its parent (`top: 10px;`).
+- z-index: Specifies the stack order of elements (`z-index: 10;`).
+- overflow: Controls what happens to content that overflows an element's box (`overflow: hidden;`).
+
+---
+
+ 7. CSS Flexbox
+- display: flex: Activates flexbox on an element.
+- justify-content: Aligns flex items horizontally (`justify-content: center;`).
+- align-items: Aligns flex items vertically (`align-items: flex-start;`).
+- flex-direction: Specifies the direction of the flex items (`flex-direction: row;`).
+- flex-wrap: Controls whether flex items should wrap or not (`flex-wrap: wrap;`).
+
+---
+
+ 8. CSS Grid
+- display: grid: Activates grid layout on an element.
+- grid-template-columns: Defines the columns of the grid (`grid-template-columns: 1fr 2fr;`).
+- grid-template-rows: Defines the rows of the grid (`grid-template-rows: 100px 200px;`).
+- grid-gap: Sets the space between rows and columns (`grid-gap: 10px;`).
+- justify-items: Aligns grid items horizontally (`justify-items: center;`).
+- align-items: Aligns grid items vertically (`align-items: stretch;`).
+
+---
+
+ 9. CSS Borders
+- border: Sets the border around an element (`border: 1px solid black;`).
+- border-radius: Rounds the corners of an element (`border-radius: 5px;`).
+- border-style: Specifies the style of the border (solid, dotted, dashed) (`border-style: dashed;`).
+- border-color: Specifies the color of the border (`border-color: red;`).
+
+---
+
+ 10. CSS Transitions and Animations
+- transition: Specifies the transition effect when a property changes (`transition: all 0.3s ease;`).
+- animation: Specifies the animation keyframes and properties (`animation: slide 2s infinite;`).
+- @keyframes: Defines the steps of an animation (`@keyframes slide { from { left: 0; } to { left: 100px; } }`).
+- animation-timing-function: Controls the speed curve of an animation (`animation-timing-function: ease-in-out;`).
+
+---
+
+ 11. CSS Shadows
+- box-shadow: Adds shadow to an element's box (`box-shadow: 2px 2px 5px rgba(0,0,0,0.5);`).
+- text-shadow: Adds shadow to text (`text-shadow: 1px 1px 3px black;`).
+
+---
+
+ 12. CSS Pseudo-classes and Pseudo-elements
+- :hover: Applies styles when an element is hovered (`a:hover { color: red; }`).
+- :focus: Applies styles when an element is focused (`input:focus { border-color: blue; }`).
+- ::before: Inserts content before an element (`::before { content: 'Hello'; }`).
+- ::after: Inserts content after an element (`::after { content: 'World'; }`).
+
+---
+
+ 13. CSS Media Queries
+- @media: Applies styles based on device characteristics (e.g., screen size) (`@media (max-width: 600px) { body { background-color: lightblue; } }`).
+
+---
+
+ 14. CSS Units
+- px (Pixels): Fixed unit of measurement.
+- % (Percentage): Relative to the parent element.
+- em: Relative to the font-size of the element.
+- rem: Relative to the font-size of the root element.
+
+---
+
+ 15. CSS Positioning
+- static: Default positioning (`position: static;`).
+- relative: Positioned relative to its normal position (`position: relative;`).
+- absolute: Positioned relative to the nearest positioned ancestor (`position: absolute;`).
+- fixed: Positioned relative to the browser window (`position: fixed;`).
+- sticky: Toggles between relative and fixed, depending on scroll position (`position: sticky;`).
+
+---
+
+ 16. CSS Lists and Tables
+- list-style-type: Specifies the type of list item marker (`list-style-type: circle;`).
+- list-style-position: Sets whether the list item marker appears inside or outside the list item (`list-style-position: inside;`).
+- table-layout: Defines the layout algorithm for a table (`table-layout: fixed;`).
+- border-collapse: Combines the borders of adjacent table cells (`border-collapse: collapse;`).
+
+---
+
+This guide covers all the essential elements and properties of CSS, providing you with a solid foundation for styling web pages.
+
+
+
+Images 
+
+
+       <div style="height: 300px; width:400px; background-image:url(https://www.thewowstyle.com/wp-content/uploads/2015/01/nature-images..jpg); background-size:cover; background-position:center;" ></div>
+background-image: url(http://www.thewowstyle.com/wp-content/)
+background-position: center;
+background-size: cover;
+background-repeat:no-repeat; 
+
+
+
+----------------------------
+
+Text Properties 
+text-align: center
+text-declarations: none
+text-shadow: none
+
+latter-spacing: 0.
+line-height:
+word-spacing
