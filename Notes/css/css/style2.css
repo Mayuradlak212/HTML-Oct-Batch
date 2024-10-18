@@ -1,0 +1,14 @@
+*{
+    background-color: green;
+    color: azure;
+    width: 100vw;
+    height: 100vh;
+}
+.header-container{
+  position: relative;
+  top: 20%;
+  right: 10%;
+  bottom: 10%;
+  left: 20%;
+   text-align: center;
+}

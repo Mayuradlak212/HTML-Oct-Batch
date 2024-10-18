@@ -1,0 +1,60 @@
+
+
+*{
+    background-color: darkorchid;
+}
+h1 {
+    color: white;
+    background-color: brown;
+    text-align: center;
+    width: 100vw;
+}
+
+.header {
+    padding: 10px;
+    margin: 20px;
+    border: 2px solid black;
+    height: 30vh;
+}
+
+#heading1 {
+    background-color: red;
+}
+
+#heading2 {
+    background-color: blue;
+}
+
+#heading3 {
+    background-color: green;
+}
+
+.container{
+    background-color: chartreuse;
+    height: 30vh;
+    padding: 10px;
+    width: 90vw;
+}
+.container p{
+    background-color: aqua;
+    font-size: 20px;
+}
+.container span{
+    background-color: red;
+    color: white;
+    font-size: 22px;
+}
+
+div article{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* *{
+    
+    margin:10px; 
+    background-color:chartreuse; 
+    visibility:visible;
+     box-shadow:2px 2px 2px 2px rgb(132, 130, 130);
+      height: 200px;
+       width:200px;
+} */
