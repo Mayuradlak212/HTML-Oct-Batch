@@ -1,0 +1,59 @@
+.btn-container{
+    background-color: chartreuse;
+    padding: 10px;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+cursor: pointer;
+    margin: 20px;
+    border: none;
+    border-radius: 20px;
+}
+.btn-container:hover{
+    background-color: red;
+    transition: 1s all ease-in-out;
+    color: white;
+}
+
+.btn-after, .btn-before{
+    background-color: cyan;
+    color: black;
+    padding: 10px;
+    margin: 20px;
+    border: none;
+    border-radius: 20px;
+}
+
+.btn-after{
+    background-color: coral;
+}
+ .btn-before::after{
+    cursor: pointer;
+    background-color: blue;
+    transition: 1s all ease-in-out;
+    padding: 5px;
+    margin: 40px;
+}
+.btn-after::before{
+    cursor: pointer;
+    background-color: rgb(250, 77, 221);
+    transition: 1s all ease-in-out;
+    padding: 5px;
+    margin: 40px;
+
+}
+
+.animation-container{
+    width: 100px;
+     background-color: cornflowerblue;
+     padding: 20px;
+     position: relative;
+  
+
+    animation: mymove 5s infinite;
+}
+
+@keyframes mymove{
+    from{left:0px;}
+    to{left:300px;}
+}
