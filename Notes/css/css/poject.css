@@ -19,6 +19,10 @@
 .nav-container nav ul li{
     padding:0 5px;
 }
+.nav-container nav ul li a{
+    text-decoration: none;
+    color: white;
+}
 
 .banner{
     width: 100vw;
@@ -35,7 +39,7 @@
     justify-content: center;
     color: black;
 }
-.banner button{
+ button{
     padding: 10px;
     background-color: blue;
     color: white;
@@ -69,4 +73,61 @@
     color: black;
     padding: 10px;
     text-align: center;
+}
+
+.table-container{
+    height: 40vh;
+    width: 100vw;
+    background-color: rgba(33, 247, 101, 0.7);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.table-container table{
+    border: 2px solid white;
+    width: 80%;
+    border-collapse: collapse;
+}
+
+.table-container  table tbody tr td{
+    padding: 2px;
+    margin: 0px;
+    text-align: center;
+    border: 1px solid white;
+}
+.table-container  table thead  th{
+    padding: 2px;
+    border: 1px solid white;
+    color: white;
+    background-color: blue;
+}
+
+
+.service-banner,.contact-banner,.login-banner{
+    width: 100vw;
+    height: 60vh;
+    padding: 0px;
+    margin: 0;
+    background-image: url('https://media.istockphoto.com/photos/service-concepts-picture-id515592300?k=6&m=515592300&s=612x612&w=0&h=sIR-F4MAtVT17osG_WJnSYwsHEnShSMi02M_g7KH7Pc=');
+    display: flex;
+    object-fit: contain;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+.contact-banner{
+ 
+    background-image: url('https://media.istockphoto.com/photos/service-concepts-picture-id515592300?k=6&m=515592300&s=612x612&w=0&h=sIR-F4MAtVT17osG_WJnSYwsHEnShSMi02M_g7KH7Pc=');
+    
+}
+.login-banner{
+  
+    background-image: url('https://uicookies.com/wp-content/uploads/2019/05/login-form-5.jpg');
+  
 }
