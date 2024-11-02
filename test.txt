@@ -244,5 +244,111 @@
 
 ---
 
+Here's a 10-question quiz on JavaScript, complete with answers to help you check your knowledge or assess someone's understanding of the language. 
 
+### JavaScript Quiz
+
+#### Question 1:
+What is the output of the following code?
+```javascript
+console.log(typeof null);
+```
+a) "null"  
+b) "object"  
+c) "undefined"  
+d) "number"
+
+---
+
+#### Question 2:
+Which method is used to convert a JSON string into a JavaScript object?
+a) JSON.parse()  
+b) JSON.stringify()  
+c) JSON.convert()  
+d) JSON.object()
+
+---
+
+#### Question 3:
+What will be the value of `x` after the following code executes?
+```javascript
+var x = 1;
+var y = (x++, x++);
+```
+a) 1  
+b) 2  
+c) 3  
+d) 4
+
+---
+
+#### Question 4:
+Which of the following is a closure in JavaScript?
+a) A function inside another function  
+b) A variable declared with `let`  
+c) A promise  
+d) An arrow function
+
+---
+
+#### Question 5:
+What does the `this` keyword refer to in a regular function?
+a) The global object  
+b) The calling object  
+c) The function itself  
+d) None of the above
+
+---
+
+#### Question 6:
+What will the following code output?
+```javascript
+console.log(0.1 + 0.2 === 0.3);
+```
+a) true  
+b) false  
+c) undefined  
+d) TypeError
+
+---
+
+#### Question 7:
+What is the purpose of the `Array.map()` method?
+a) To change each element in an array  
+b) To filter elements in an array  
+c) To find an element in an array  
+d) To sort an array
+
+---
+
+#### Question 8:
+Which of the following is the correct way to define an asynchronous function in JavaScript?
+a) function async myFunction() {}  
+b) async function myFunction() {}  
+c) function myFunction() async {}  
+d) myFunction async() {}
+
+---
+
+#### Question 9:
+What will the following code log to the console?
+```javascript
+let x = [1, 2, 3];
+let y = x;
+y.push(4);
+console.log(x);
+```
+a) [1, 2, 3]  
+b) [1, 2, 3, 4]  
+c) [4]  
+d) Error
+
+---
+
+#### Question 10:
+Which statement about `let` and `var` is true?
+a) `let` is hoisted but not initialized.  
+b) `var` is block-scoped.  
+c) Variables declared with `let` cannot be reassigned.  
+d) `var` can be redeclared in the same scope.
 
