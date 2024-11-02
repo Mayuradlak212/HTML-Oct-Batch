@@ -1,0 +1,248 @@
+
+
+ HTML & CSS Questions
+
+1. What does HTML stand for?
+   - A) Hyper Text Markup Language
+   - B) Hyperlinks and Text Markup Language
+   - C) Home Tool Markup Language
+   - D) Hyper Trainer Marking Language
+
+2. Which HTML tag is used to define an internal style sheet?
+   - A) `<css>`
+   - B) `<script>`
+   - C) `<style>`
+   - D) `<link>`
+
+3. How can you create a hyperlink in HTML?
+   - A) `<a href="url">link</a>`
+   - B) `<a url="link">link</a>`
+   - C) `<link src="url">`
+   - D) `<href="url">link</href>`
+
+4. Which HTML element is used for the largest heading?
+   - A) `<h6>`
+   - B) `<head>`
+   - C) `<header>`
+   - D) `<h1>`
+
+5. Which HTML attribute specifies an alternative text for an image?
+   - A) title
+   - B) src
+   - C) alt
+   - D) caption
+
+6. What is the correct HTML tag for inserting a line break?
+   - A) `<br>`
+   - B) `<lb>`
+   - C) `<break>`
+   - D) `<line>`
+
+7. How do you create an ordered list in HTML?
+   - A) `<ul>`
+   - B) `<ol>`
+   - C) `<li>`
+   - D) `<list>`
+
+8. Which HTML tag is used to create a dropdown list?
+   - A) `<input>`
+   - B) `<select>`
+   - C) `<dropdown>`
+   - D) `<option>`
+
+9. What does the `<title>` tag do?
+   - A) Defines the title of the document
+   - B) Displays a tooltip on the page
+   - C) Adds a header to the page
+   - D) Sets the name of the page
+
+10. Which HTML tag is used to define a table row?
+    - A) `<table>`
+    - B) `<tr>`
+    - C) `<td>`
+    - D) `<row>`
+
+11. In HTML, how do you specify the background color?
+    - A) `<body style="bgcolor:yellow">`
+    - B) `<body background="yellow">`
+    - C) `<body style="background-color:yellow">`
+    - D) `<background>yellow</background>`
+
+12. Which of these elements are all `<table>` elements?
+    - A) `<table>`, `<tr>`, `<td>`
+    - B) `<thead>`, `<body>`, `<footer>`
+    - C) `<table>`, `<head>`, `<foot>`
+    - D) `<header>`, `<footer>`, `<section>`
+
+13. How do you create a checkbox in HTML?
+    - A) `<input type="checkbox">`
+    - B) `<input type="button">`
+    - C) `<input type="radio">`
+    - D) `<check>`
+
+14. How do you make a text bold in HTML?
+    - A) `<b>`
+    - B) `<bold>`
+    - C) `<strong>`
+    - D) Both A and C
+
+15. How can you open a link in a new tab in HTML?
+    - A) `target="_new"`
+    - B) `target="_blank"`
+    - C) `target="_tab"`
+    - D) `target="newtab"`
+
+16. What is the default alignment of a paragraph in HTML?
+    - A) Left
+    - B) Right
+    - C) Center
+    - D) Justify
+
+17. Which CSS property controls the text size?
+    - A) font-style
+    - B) text-size
+    - C) font-size
+    - D) text-style
+
+18. What does CSS stand for?
+    - A) Colorful Style Sheets
+    - B) Computer Style Sheets
+    - C) Cascading Style Sheets
+    - D) Creative Style Sheets
+
+19. Which HTML tag is used to define an unordered list?
+    - A) `<list>`
+    - B) `<ol>`
+    - C) `<ul>`
+    - D) `<li>`
+
+20. Which property is used to change the background color in CSS?
+    - A) color
+    - B) background-color
+    - C) bgcolor
+    - D) background
+
+21. Which CSS property is used for changing the font of text?
+    - A) font-style
+    - B) font-weight
+    - C) font-family
+    - D) font-type
+
+22. How do you add a comment in CSS?
+    - A) `// this is a comment`
+    - B) `<!-- this is a comment -->`
+    - C) `/ this is a comment /`
+    - D) ` this is a comment `
+
+23. Which CSS property controls the text color?
+    - A) foreground-color
+    - B) text-color
+    - C) color
+    - D) font-color
+
+24. Which CSS property is used to change the text alignment?
+    - A) text-align
+    - B) text-style
+    - C) align
+    - D) text-alignment
+
+25. How do you select an element with the id "header" in CSS?
+    - A) `.header`
+    - B) `header`
+    - C) `header`
+    - D) `header`
+
+26. Which CSS property is used to make text bold?
+    - A) font-weight
+    - B) font-bold
+    - C) text-weight
+    - D) text-bold
+
+27. How can you add space between the border and the content in CSS?
+    - A) margin
+    - B) spacing
+    - C) padding
+    - D) border-spacing
+
+28. How do you select elements with the class name "menu" in CSS?
+    - A) `.menu`
+    - B) `menu`
+    - C) `menu`
+    - D) `menu`
+
+29. Which CSS property can be used to make text italic?
+    - A) font-weight
+    - B) font-style
+    - C) text-style
+    - D) font-italic
+
+30. What is the correct CSS syntax for making all `<p>` elements bold?
+    - A) `p {text:bold}`
+    - B) `p {font-weight:bold}`
+    - C) `<p style="font-weight:bold">`
+    - D) `<p style="text:bold">`
+
+31. Which CSS property is used to create space around elements?
+    - A) padding
+    - B) border
+    - C) spacing
+    - D) margin
+
+32. How do you add a border in CSS?
+    - A) `border-style`
+    - B) `border`
+    - C) `border-line`
+    - D) `border-width`
+
+33. How can you increase the spacing between letters in CSS?
+    - A) letter-spacing
+    - B) text-spacing
+    - C) font-spacing
+    - D) text-gap
+
+34. What CSS property is used to change the font color?
+    - A) font-color
+    - B) text-color
+    - C) color
+    - D) text-fill-color
+
+35. How can you change the background color for all `<h1>` elements in CSS?
+    - A) `h1 {background-color: blue}`
+    - B) `h1.all {background-color: blue}`
+    - C) `h1.all {bgcolor: blue}`
+    - D) `h1.all {background: blue}`
+
+36. Which CSS property is used to control the layout?
+    - A) display
+    - B) layout
+    - C) position
+    - D) align
+
+37. How can you add rounded corners to an element in CSS?
+    - A) corner-radius
+    - B) border-corner
+    - C) border-radius
+    - D) round-corners
+
+38. What property is used to set the shadow around an element?
+    - A) box-shadow
+    - B) shadow
+    - C) border-shadow
+    - D) element-shadow
+
+39. Which property is used to float elements in CSS?
+    - A) float
+    - B) clear
+    - C) align
+    - D) position
+
+40. What does the "z-index" property control?
+    - A) Horizontal alignment
+    - B) Stacking order
+    - C) Visibility
+    - D) Margin size
+
+---
+
+
+
