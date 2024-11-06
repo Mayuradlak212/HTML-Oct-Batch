@@ -1,0 +1,19 @@
+1. operator 
+2. let vs var vs const 
+3. Data Type  and it's Method 
+--> Local storage and Session Storage , Cookies 
+4. Event 
+5. Array and it's method
+6. function 
+7. Loop , and it's Type 
+8. Control Flow Stetement --> if else and else if , switch break , continue
+9. Date Function in js 
+10. Hoisting 
+11. IIFE --> 
+12. Clouser 
+13. Exception Handling --> try catch , finally 
+14. Callback 
+15. Promises 
+16. Spread and Destructuring  ( Array and Object )
+17. Asynchronous Programming and Thread --> async and await 
+18. Event Loop 
