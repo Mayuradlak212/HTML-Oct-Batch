@@ -2,62 +2,102 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="./index5.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="./event.css">
 </head>
 
 <body>
-    <div id="division" class="div-class">
-        Hii Welcome to JavaScript First Lecture
+  <div id="division" class="div-class">
+    Hii Welcome to JavaScript First Lecture
+  </div>
+  <div class="form-container">
+    <form action="">
+      <div> <label for=""> Name </label>
+        <input id="name" type="text" placeholder="Enter your name ">
+      </div>
+      <div> <label for=""> Email </label>
+        <input id="email" type="email" placeholder="Enter your email ">
+      </div>
+      <div> <label for=""> Phone </label>
+        <input id="phone" type="number" placeholder="Enter your Phone ">
+      </div>
+      <div> <label for=""> City </label>
+        <input id="city" type="text" placeholder="Enter your City ">
+      </div>
+      <div> <label for=""> Profession </label>
+        <input id="profession" type="text" placeholder="Enter your Profession ">
+      </div>
+      <div> <label for=""> Age </label>
+        <input id="age" type="number" placeholder="Enter your Age ">
+      </div>
+    </form>
+
+    <div>
+      <h2>User Data:</h2>
+      <div id="userData"></div>
+       <p id="username"></p>
+       <p id="useremail"></p>
+       <p id="userphone"></p>
+       <p id="usercity"></p>
+       <p id="userprofession"></p>
+       <p id="userage"></p>
+
     </div>
-    
-    <button>Click Me</button>
+
+    <button onclick="onSubmit()" type="submit">Submit</button>
+    <button onclick="printData()" type="submit">Print </button>
+  </div>
+
 
 </body>
-<!-- <script>
+<script>
+  /**
+   * Handles form submission
+   * @param {Event} event - The onsubmit event
+   */
 
-    document.getElementsByTagName("div")[0].innerHTML = "Welcome to JavaScript"
-    // document for Target by Tag Name 
+  function printData() {
+    const user =localStorage.getItem ("person");
+    const parsedUser = JSON.parse(user);
 
-    document.getElementById("division")
-    // Use to Target by  Id 
+    document.getElementById("username").innerHTML = parsedUser.name;
+    document.getElementById("useremail").innerHTML = parsedUser.email;
+    document.getElementById("userphone").innerHTML = parsedUser.phone;
+    document.getElementById("usercity").innerHTML = parsedUser.city;
+    document.getElementById("userprofession").innerHTML = parsedUser.profession;
+    document.getElementById("userage").innerHTML = parsedUser.age;
+  }
+  function onSubmit(e) {
 
-  document.getElementsByClassName("div-class")[0].innerHTML="HTML Class for Use";
+    console.log("onSubmit")
+    let name = document.getElementById("name").value;
+    let email = document.getElementById("email").value;
+    let phone = document.getElementById("phone").value;
+    let city = document.getElementById("city").value;
+    let profession = document.getElementById("profession").value;
+    let age = document.getElementById("age").value;
+    const person = {
+      name: name,
+      email: email,
+      phone: phone,
+      city: city,
+      profession: profession,
+      age: age
+    }
+    console.log("User Data : ", person)
+    /*   localStorage.setItem("name", person.name);
+       localStorage.setItem("email", person.email);
+       localStorage.setItem("phone", person.phone);
+       localStorage.setItem("city", person.city);
+       localStorage.setItem("profession", person.profession);
+       localStorage.setItem("age", person.age);*/
+    const strData = JSON.stringify(person);
+    localStorage.setItem("person", strData);
 
-    document.title = "Welcome to JavaScript";
-
-    document.write("Hii Welcome to JavaScript");
-
-  document.querySelector("#divison")
-  // This is Query Selector 
-  document.querySelector(".div-class")
-
-  // This is Query Selector for Class Name
-
- // document.querySelector("div").innerHTML
-    /*
-This is y Multiline Comment
-
-Hyy 
-*/
-  //window.location.reload()
- console.log("Window Height", window.screen.height);
- console.log("Window Width", window.screen.width);
- console.log("Browser Window Height", window.innerHeight);
-  console.log("Scree :", window.screenLeft)
-  console.log("Browser Window ", window);
-  console.log("Document Object ", document);
-  console.log("LocalStorage ",localStorage );
-  console.log("Session Storage ", sessionStorage);
-  console.log("navigator ", navigator);
-  console.log("Notification : ",Notification.permission)
-
-// Single Line Comment
-
-
-
-</script> -->
+  }
+</script>
 
 </html>
